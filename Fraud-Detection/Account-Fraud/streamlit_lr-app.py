@@ -4,7 +4,7 @@ import pandas as pd
 
 st.set_page_config(page_title="Fraud Detection App", layout="wide")
 
-st.title("Fraud Detection Web App - LightGBM Model")
+st.title("Fraud Detection Web App - Logistic Regression Model")
 
 st.write("Upload transaction details to check if it's fraudulent.")
 

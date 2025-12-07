@@ -4,12 +4,12 @@ import pandas as pd
 
 st.set_page_config(page_title="Fraud Detection App", layout="wide")
 
-st.title("Fraud Detection Web App - LightGBM Model")
+st.title("Fraud Detection Web App - Random Forest Model")
 
 st.write("Upload transaction details to check if it's fraudulent.")
 
 # Load model
-model = joblib.load("fraud_detection_model_Random-forest.pkl")  # Replace with actual model path
+model = joblib.load("fraud_detection_model_Random-forest.pkl")
 
 # Input form
 with st.form("fraud_form"):
